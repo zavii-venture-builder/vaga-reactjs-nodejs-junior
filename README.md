@@ -20,6 +20,12 @@ Crie uma aplicação composta por **backend em NodeJS (Fastify)** e **frontend e
 
 ## 🔧 Requisitos Técnicos
 
+- **Frontend**
+  - Utilizar **ReactJS** com **Vite**.
+  - Criar uma tela com um formulário para cadastrar produtos.
+  - Criar uma tela ou seção para listar os produtos cadastrados.
+  - Consumir as rotas do backend criado.
+
 - **Backend**
   - Utilizar **NodeJS** com **Fastify**.
   - Criar rotas para:
@@ -27,11 +33,15 @@ Crie uma aplicação composta por **backend em NodeJS (Fastify)** e **frontend e
     - Listar todos os produtos.
   - Os dados podem ficar armazenados em memória (array ou objeto JS).
 
-- **Frontend**
-  - Utilizar **ReactJS** com **Vite**.
-  - Criar uma tela com um formulário para cadastrar produtos.
-  - Criar uma tela ou seção para listar os produtos cadastrados.
-  - Consumir as rotas do backend criado.
+---
+
+## 🚀 Como Entregar
+
+1. Faça um **fork** deste repositório.  
+2. Implemente a solução no **seu fork**.  
+3. Abra um **Pull Request (PR)** para este repositório com a sua solução no seguinte formato: 
+
+[TESTE] <Seu nome>
 
 ---
 
@@ -44,17 +54,6 @@ Você pode utilizar ferramentas de **IA (ChatGPT, Copilot, Cursor, etc.)** para 
 - No **README.md**: explique rapidamente qual parte do código ou tarefa foi feita com auxílio de IA e por que você tomou essa decisão.
   
 Essa prática ajuda a entendermos como você equilibra **uso de IA + conhecimento próprio**.
-
-
----
-
-## 🚀 Como Entregar
-
-1. Faça um **fork** deste repositório.  
-2. Implemente a solução no **seu fork**.  
-3. Abra um **Pull Request (PR)** para este repositório com a sua solução no seguinte formato: 
-
-[TESTE] <Seu nome>
 
 ---
 
@@ -69,18 +68,23 @@ Essa prática ajuda a entendermos como você equilibra **uso de IA + conheciment
 
 ---
 
+## 🤖 Uso de Inteligência Artificial
+
+Você pode utilizar ferramentas de **IA (ChatGPT, Copilot, Cursor, etc.)** para auxiliar na implementação.  
+
+⚠️ Pedimos apenas que **explique como a IA foi utilizada**, de forma transparente:  
+
+- No **README.md**: explique rapidamente qual parte do código ou tarefa foi feita com auxílio de IA e por que você tomou essa decisão.
+  
+Essa prática ajuda a entendermos como você equilibra **uso de IA + conhecimento próprio**.
+
+---
+
 ## ⏱ Prazo
 
 Você terá **até 5 dias corridos** a partir do recebimento do teste para abrir o PR.  
 
 ---
-
-## 💡 Dicas
-
-- Mantenha as instruções simples para rodar sua aplicação (`npm install`, `npm run dev`, etc.).  
-- Escreva um README explicando como subir o frontend e o backend.  
-- Se não conseguir implementar tudo, entregue o que for possível — explique suas decisões.  
-- Use a oportunidade para mostrar **como você pensa e organiza o trabalho**.  
 
 Boa sorte! 🍀  
 Equipe Zavii
