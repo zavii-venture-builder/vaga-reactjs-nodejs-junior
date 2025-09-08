@@ -47,18 +47,6 @@ Coloque o dia e o mês de conclusão, e seu nome completo.
 
 ---
 
-## 🤖 Uso de Inteligência Artificial
-
-Você pode utilizar ferramentas de **IA (ChatGPT, Copilot, Cursor, etc.)** para auxiliar na implementação.  
-
-⚠️ Pedimos apenas que **explique como a IA foi utilizada**, de forma transparente:  
-
-- No **README.md**: explique rapidamente qual parte do código ou tarefa foi feita com auxílio de IA e por que você tomou essa decisão.
-  
-Essa prática ajuda a entendermos como você equilibra **uso de IA + conhecimento próprio**.
-
----
-
 ## ✅ O que será avaliado
 
 - Clareza e organização do código.
