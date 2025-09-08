@@ -39,9 +39,11 @@ Crie uma aplicação composta por **backend em NodeJS (Fastify)** e **frontend e
 
 1. Faça um **fork** deste repositório.  
 2. Implemente a solução no **seu fork**.  
-3. Abra um **Pull Request (PR)** para este repositório com a sua solução no seguinte formato: 
+3. Abra um **Pull Request (PR)** para este repositório com a sua solução: 
 
-[TESTE] <Seu nome>
+[dia-mes] Seu nome completo
+
+Coloque o dia e o mês de conclusão, e seu nome completo.
 
 ---
 
