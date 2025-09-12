@@ -1,36 +1,36 @@
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
-import produtoRoutes from './routes/produtoRoutes.js';
+import productRoutes from './src/routes/productRoutes.js';
 
 const fastify = Fastify({
-    logger:true
+  logger: true
 });
 
-// Configuração do CORS
+// Registrar CORS
 await fastify.register(cors, {
-    origin: '*', // Permite que o Vite acesse a API
-    methods: ['GET', 'POST', 'PUT', 'DELETE']
+  origin: ['http://localhost:5173', 'http://127.0.0.1:5173'], // Vite dev server
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
 });
 
-// Registro das rotas
-await fastify.register(produtoRoutes, { prefix: '/api' });
+// Registrar rotas
+await fastify.register(productRoutes, { prefix: '/api' });
 
-// Rota de Health Check
+// Rota de health check
 fastify.get('/health', async (request, reply) => {
-    return { status: 'OK', message: 'Servidor Funcionando!' };
+  return { status: 'OK', message: 'Servidor funcionando!' };
 });
 
-// Inicializa o servidor
+// Iniciar servidor
 const start = async () => {
-    try {
-        const port = process.env.PORT || 3000;
-        await fastify.listen({ port, host: '0.0.0.0' });
-        console.log(`🚀 Servidor rodando na porta ${port}`);
+  try {
+    const port = process.env.PORT || 3000;
+    await fastify.listen({ port, host: '0.0.0.0' });
+    console.log(`🚀 Servidor rodando na porta ${port}`);
     console.log(`📋 API disponível em: http://localhost:${port}/api`);
-    } catch (err) {
-        fastify.log.error(err);
-        process.exit(1);
-    }
+  } catch (err) {
+    fastify.log.error(err);
+    process.exit(1);
+  }
 };
 
 start();
