@@ -1,9 +1,10 @@
 {
-  "name": "produto-cadastro-frontend",
-  "version": "1.0.0",
-  "description": "Frontend para sistema de cadastro de produtos - Teste Técnico Zavii",
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "description": "Frontend para sistema de cadastro de produtos - Teste Técnico Zavii",
+ "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { ProductProvider } from './context/ProductContext';
 import Header from './components/Header';
 import ProductForm from './components/ProductForm';
 import ProductList from './components/ProductList';
-import { ProductProvider } from './context/ProductContext';
 import './styles/App.css';
 
 function App() {

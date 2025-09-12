@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+'react';
+import { useEffect } from 'react';
 import { useProducts } from '../context/ProductContext';
 import ProductCard from './ProductCard';
 

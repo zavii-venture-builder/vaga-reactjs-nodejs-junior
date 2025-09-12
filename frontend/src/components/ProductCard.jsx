@@ -1,4 +1,4 @@
-import React from 'react';
+'react';
 
 const ProductCard = ({ product }) => {
   const formatPrice = (price) => {
