@@ -1,0 +1,22 @@
+{
+  "name": "produto-cadastro-backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de cadastro de produtos - Teste Técnico Zavii",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "fastify": "^4.29.1"
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "api",
+    "produtos"
+  ],
+  "author": "Danillo Acassio"
+}
